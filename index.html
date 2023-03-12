@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google icon -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<!-- css kodlari -->
+<link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <section class="logo">
+                <h1>Logo</h1>
+            </section>
+    
+            <section class="nav_wrapper">
+                <ul>
+                    <li class="nav_item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+                <div class="button">
+                    <button>Login</button>
+                </div>
+            </section>
+            <div class="menu">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- daxil olmag ucun form -->
+        <section class="login_form">
+            <div class="login_close_btn close_btn">
+                <span class="material-symbols-outlined">
+                    close
+                </span>
+            </div>
+    
+            <section class="login_content">
+                <div class="login_title">
+                    <h3>Login</h3>
+                </div>
+    
+                <section class="login_inputGroup">
+                    <!-- 	yalnis email ucun -->
+                    <div class="login_inputField">
+                        <input type="text" id="email" required>
+                        <label for="email" class="login_inputLabel">Email *</label>
+                        <label for="email" class="input_icon">
+                            <span id="input_icon" class="material-symbols-outlined ">
+                                mail
+                            </span>
+                        </label>
+    
+                    </div>
+    
+                    <!-- kodu sef yazanda--> 
+                    <div class="login_inputField">
+                        <input type="password" id="password" required>
+                        <label for="password" class="login_inputLabel">Password *</label>
+                        <label for="password" class="input_icon">
+                            <span id="input_icon" class="material-symbols-outlined ">
+                                lock
+                            </span>
+                        </label>
+                    </div>
+    
+                    <!-- kodu unudanda-->
+                    <div class="forgot_pwd">
+                        <a href="/">Forgot Password?</a>
+                    </div>
+    
+                    <!-- yadda saxlamag duymesi -->
+                    <div class="remember_me">
+                        <input type="checkbox" id="remember">
+                        <label for="remember" class='checkmark'>
+                            <span class="material-symbols-outlined check_icon">
+                                check
+                            </span>
+                        </label>
+                        <label for="remember">Remember me</label>
+                    </div>
+    
+                    <!-- qeydiyyat butonu-->
+                    <div class="login_btn">
+                        <button>Login</button>
+                    </div>
+    
+                    <!-- giris butonu -->
+                    <div class="signup_switch_btn">
+                        <h3>Don't have an Account? <span id="switchToSignUp">Sign up</span></h3>
+                    </div>
+                </section>
+            </section>
+        </section>
+    
+        <!-- qeydiyyat  ucun form  -->
+        <section class="signup_form">
+            <div class="signup_close_btn close_btn">
+                <span class="material-symbols-outlined">
+                    close
+                </span>
+            </div>
+    
+            <!-- content hisse -->
+            <section class="signup_content">
+                <div class="signup_title">
+                    <h3>Sign up</h3>
+                </div>
+    
+                <section class="signup_inputGroup">
+              
+                    <div class="signup_inputField">
+                        <input type="text" id="username" required>
+                        <label for="username" class="signup_inputLabel">Username *</label>
+                        <label for="username" class="input_icon">
+                            <span id="input_icon" class="material-symbols-outlined ">
+                                person
+                            </span>
+                        </label>
+    
+                    </div>
+    
+                   
+                    <div class="signup_inputField">
+                        <input type="text" id="signup_email" required>
+                        <label for="signup_email" class="signup_inputLabel">Email *</label>
+                        <label for="signup_email" class="input_icon">
+                            <span id="input_icon" class="material-symbols-outlined ">
+                                mail
+                            </span>
+                        </label>
+    
+                    </div>
+    
+                    <!-- parol ile bagli hisse  -->
+                    <div class="signup_inputField">
+                        <input type="password" id="signup_password" required>
+                        <label for="signup_password" class="signup_inputLabel">Password *</label>
+                        <label for="signup_password" class="input_icon">
+                            <span id="input_icon" class="material-symbols-outlined ">
+                                lock
+                            </span>
+                        </label>
+                    </div>
+    
+                   
+                    <div class="term_condition">
+                        <input type="checkbox" id="term">
+                        <label for="term" class='checkmark'>
+                            <span class="material-symbols-outlined check_icon">
+                                check
+                            </span>
+                        </label>
+                        <label for="term">I agree the terms and conditions.</label>
+                    </div>
+    
+                    <div class="signup_btn">
+                        <button>Sign up</button>
+                    </div>
+    
+                
+                    <div class="login_switch_btn">
+                        <h3>Already have an Account? <span id="switchToLogin">Login</span></h3>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </main>
+    <!-- mine js -->
+    <script src="./js/app.js"></script>
+</body>
+</html>
+
+
